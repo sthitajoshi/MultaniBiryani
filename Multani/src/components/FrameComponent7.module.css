@@ -1,0 +1,33 @@
+.e2f53738fa30a7e1cc88e61261c33Icon {
+  width: 58px;
+  height: 56px;
+  position: relative;
+  object-fit: contain;
+}
+.mutton {
+  position: relative;
+  letter-spacing: 0.01em;
+  display: inline-block;
+  min-width: 48px;
+}
+.e2f53738fa30a7e1cc88e61261c33Parent,
+.muttonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs);
+}
+.e2f53738fa30a7e1cc88e61261c33Parent {
+  border-radius: var(--br-3xl);
+  background-color: var(--color-bisque);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-5xl) var(--padding-2xl) var(--padding-6xs);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+}

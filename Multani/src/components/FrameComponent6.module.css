@@ -1,0 +1,39 @@
+.bc05f6d6776b42bd40914e0b077487Icon {
+  width: 64px;
+  height: 63px;
+  position: relative;
+  object-fit: contain;
+}
+.chicken {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.01em;
+}
+.bc05f6d6776b42bd40914e0b077487Parent,
+.chickenWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.chickenWrapper {
+  align-self: stretch;
+  height: 16px;
+  flex-direction: row;
+  padding: 0 var(--padding-6xs) 0 var(--padding-7xs);
+}
+.bc05f6d6776b42bd40914e0b077487Parent {
+  width: 100px;
+  border-radius: var(--br-3xl);
+  background-color: var(--color-bisque);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-3xl) var(--padding-mid) var(--padding-6xs);
+  gap: var(--gap-mini);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+}

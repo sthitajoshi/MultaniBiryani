@@ -1,0 +1,35 @@
+.menuContactLink {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background: linear-gradient(101.53deg, #d9d9d9, rgba(255, 255, 255, 0));
+  border: 0.5px solid var(--color-white);
+  box-sizing: border-box;
+}
+.ourMenu {
+  position: relative;
+  letter-spacing: 0.01em;
+  display: inline-block;
+  min-width: 39px;
+  z-index: 1;
+}
+.menuContactLinkParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-xs);
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-6xs);
+  color: var(--color-white);
+  font-family: var(--font-raleway);
+}
