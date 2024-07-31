@@ -1,6 +1,6 @@
-import MainFrame from "../components/MainFrame";
 import Content from "../components/Content";
 import GalleryHeader from "../components/GalleryHeader";
+import MainFrame from "../components/MainFrame";
 import styles from "./FullScreen.module.css";
 
 const FullScreen = () => {

@@ -10,9 +10,10 @@
   align-self: stretch;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: flex-start; 
   justify-content: center;
   padding: 0 var(--padding-xl);
+  white-space: nowrap; /* Prevents text from wrapping */
 }
 .cabfcc101fa6f6d99b3c07e9997f7cIcon {
   width: 67px;
@@ -245,7 +246,7 @@
   box-sizing: border-box;
   gap: var(--gap-mid);
 }
-.content,
+/* .content,
 .menuItems,
 .menuTitleParent {
   display: flex;
@@ -281,4 +282,106 @@
   font-size: var(--font-size-9xl);
   color: var(--color-darkorange-100);
   font-family: var(--font-bricolage-grotesque-48pt);
+} */
+
+
+.content,
+.menuItems,
+.menuTitleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align the heading */
+  justify-content: flex-start;
+  max-width: 100%; 
 }
+
+.menuTitle { 
+  font-size: 20px;/* Set a fixed size for all widths */
+  color: var(--color-darkorange-100);
+  text-align: center;
+  
+}
+
+.menuItems {
+  width: 100%; /* Set to 100% to allow it to fill the container */
+  flex: 1;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  flex-direction: row;
+  justify-content: center; /* Center align the items */
+  gap: var(--gap-mini);
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+  padding-right: 16px; /* Add right padding for mobile */
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+  .menuItems {
+    width: auto; /* Allow width to adjust based on content */
+    justify-content: flex-start; /* Align items to the start */
+    gap: var(--gap-base);
+    padding-right: 0; /* Increase gap for larger screens */
+  }
+  .content {
+    height: auto; /* Adjust height as necessary */
+    padding: 0 var(--padding-base) var(--padding-lg) var(--padding-sm);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-lg); /*Adjust font size for larger screens*/
+  }
+}
+
+/* Responsive adjustments for tablet */
+@media (min-width: 768px) {
+  .menuItems {
+    width: auto; /* Allow width to adjust based on content */
+    justify-content: flex-start; /* Align items to the start */
+    gap: 26px;
+    padding-right: 0; /* Increase gap for larger screens */
+  }
+  .content {
+    height: auto; /* Adjust height as necessary */
+    padding: 0 var(--padding-base) var(--padding-lg) var(--padding-sm);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-lg); /*Adjust font size for larger screens*/
+  }
+}
+
+
+/* Responsive adjustments for laptop */
+@media (min-width: 1024px) {
+  .menuItems {
+    width: auto; /* Allow width to adjust based on content */
+    justify-content: flex-start; /* Align items to the start */
+    gap: 32px;
+    padding-right: 0; /* Increase gap for larger screens */
+  }
+  .content {
+    height: auto; /* Adjust height as necessary */
+    padding: 0 var(--padding-base) var(--padding-lg) var(--padding-sm);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-lg); /*Adjust font size for larger screens*/
+  }
+}
+
+
+/* Responsive adjustments for laptop */
+@media (min-width: 1440px) {
+  .menuItems {
+    width: auto; /* Allow width to adjust based on content */
+    justify-content: flex-start; /* Align items to the start */
+    gap: 44px;
+    padding-right: 0; /* Increase gap for larger screens */
+  }
+  .content {
+    height: auto; /* Adjust height as necessary */
+    padding: 0 var(--padding-base) var(--padding-lg) var(--padding-sm);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-lg); /*Adjust font size for larger screens*/
+  }
+}
+
