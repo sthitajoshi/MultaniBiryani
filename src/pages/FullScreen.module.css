@@ -10,17 +10,17 @@
   max-width: 100%;
 }
 .cabfcc101fa6f6d99b3c07e9997f7cIcon {
-  height: 142px;
-  width: 140px;
+  height: 120px;
   position: relative;
   object-fit: contain;
   z-index: 1;
+  align-self: center;
 }
 .offer,
 .offerWrapper {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   box-sizing: border-box;
   max-width: 100%;
@@ -29,16 +29,45 @@
   flex: 1;
   padding: var(--padding-sm) var(--padding-4xl) 3.3px;
   background-image: url(/public/offer-section-1@2x.png);
+  height: 200px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
 }
+
+
+@media (min-width: 767px) {
+  .offer {
+    height: 250px; /* Increase height for desktop */
+  }
+
+  .cabfcc101fa6f6d99b3c07e9997f7cIcon {
+    height: 180px;
+  }
+}
+
+/* Responsive adjustments for desktop */
+@media (min-width: 1024px) {
+  .offer {
+    height: 300px; /* Increase height for desktop */
+  }
+
+  .cabfcc101fa6f6d99b3c07e9997f7cIcon {
+    height: 230px;
+  }
+
+
+}
+
 .offerWrapper {
   align-self: stretch;
   padding: 0 0 17.7px;
 }
 .hereAreSome {
-  margin: 0;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
 }
 .hereAreSomeContainer {
   width: 132px;
@@ -47,6 +76,7 @@
 }
 .hereAreSomeContainer,
 .whyPeoplesChoose {
+  align-self: center;
   position: relative;
   letter-spacing: 0.05em;
   font-weight: 500;
@@ -54,9 +84,9 @@
 .testimonialQuestion {
   align-self: stretch;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 0 var(--padding-9xl);
   font-size: var(--font-size-xl);
 }
@@ -120,19 +150,13 @@
   display: inline-block;
   min-width: 102px;
 }
-.dedicatedTeamElevatingContainer {
-  position: relative;
-  font-size: var(--font-size-xs);
-  letter-spacing: 0.05em;
-  text-transform: lowercase;
-  color: var(--color-gray-300);
-}
+
 .foodCakeUndefinedGlyph {
   align-self: stretch;
   position: relative;
   max-width: 100%;
   overflow: hidden;
-  max-height: 100%;
+  max-height: 300px;
 }
 .delights,
 .sensationalFlavorsAnd {
@@ -174,17 +198,24 @@
   text-align: center;
 }
 .reviewHeading {
-  justify-content: flex-start;
-  padding: 0 47px 0 48px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-9xl);
+  font-size: var(--font-size-xl);
 }
 .androidSmall8 {
-  align-self: stretch;
-  width: 90px;
+  width: 100px;
+  height: 70px;
   position: relative;
   border-radius: var(--br-smi);
   background-color: var(--color-silver);
   overflow: hidden;
   flex-shrink: 0;
+  margin: 0;
+  
 }
 .reviewStars,
 .reviewTitle {
@@ -195,11 +226,30 @@
   justify-content: flex-start;
 }
 .reviewStars {
-  border-radius: var(--br-smi);
-  overflow-x: auto;
-  flex-direction: row;
-  gap: var(--gap-xs);
+  display: flex;
+  align-items: center; /* Center align the stars */
+  justify-content: flex-start; /* Align stars to the left */
+  overflow-x: auto; /* Allow horizontal scrolling */
+  white-space: nowrap; /* Prevent wrapping of child elements */
+  padding: 0;
+  gap: var(--gap-xs); /* Optional: Adjust padding as needed */
 }
+
+
+@media (max-width: 425px) {
+  .reviewStars {
+    padding: 0 10px; /* Add padding to prevent cutting off */
+  }
+}
+
+@media (min-width: 480px) {
+  .reviewStars {
+    align-items: center; /* Center align the stars */
+  justify-content: center; 
+}
+}
+
+
 .reviewTitle {
   flex-direction: column;
   gap: var(--gap-xl);
@@ -260,8 +310,10 @@
   gap: var(--gap-base);
 }
 .reviewContentWrapper {
+  align-self: stretch;
+  display: flex;
   height: 162px;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-end;
   padding: 0 var(--padding-base) var(--padding-5xs);
   box-sizing: border-box;
@@ -619,16 +671,7 @@
   align-items: flex-start;
   gap: 263px;
 }
-.photo {
-  width: 50px;
-  position: absolute;
-  margin: 0 !important;
-  top: 32px;
-  left: calc(50% - 25px);
-  letter-spacing: 0.01em;
-  display: inline-block;
-  z-index: 1;
-}
+
 .androidSmall5 {
   align-self: stretch;
   flex: 1;

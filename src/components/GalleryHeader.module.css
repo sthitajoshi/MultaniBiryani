@@ -12,7 +12,10 @@
   align-self: stretch;
   position: relative;
   letter-spacing: 0.01em;
-  font-weight: 600;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+
 }
 .galleryNavigationButtonBack {
   height: 100%;
@@ -29,18 +32,26 @@
   box-sizing: border-box;
 }
 .moreShots {
+  align-items: center;
   position: relative;
   letter-spacing: 0.01em;
   font-weight: 500;
   display: inline-block;
   min-width: 40px;
   z-index: 1;
+  cursor: pointer;
 }
+
+.galleryNavigation {
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
 .galleryNavigation,
 .galleryNavigationButtonBackParent {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
 }
 .galleryNavigationButtonBackParent {
@@ -57,21 +68,19 @@
   font-family: var(--font-raleway);
 }
 .galleryTitle {
-  align-self: stretch;
-  flex-direction: column;
-  gap: var(--gap-2xs);
+  display: flex;
+  flex-direction: column; /* Change to column to stack elements vertically */
+  align-items: center; /* Center align the elements */
+  justify-content: center; /* Center align the elements */
+  width: 100%; /* Full width */
 }
 .galleryHeader,
 .galleryTitle,
 .galleryTitleContainer {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.galleryTitleContainer {
-  flex: 1;
-  flex-direction: column;
-  padding: var(--padding-32xl) 0 0;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center align the elements */
+  justify-content: center;  /* Add padding for spacing */
 }
 .galleryHeader {
   align-self: stretch;

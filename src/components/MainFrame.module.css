@@ -24,6 +24,8 @@
   position: relative;
   font-weight: 600;
   z-index: 1;
+  color: #ffffff;
+  margin-bottom: 5px;
 }
 .biryani {
   width: 130px;
@@ -37,6 +39,7 @@
   color: var(--color-darkorange-100);
   display: inline-block;
   z-index: 2;
+  margin-bottom: 0px;
 }
 .brandName {
   width: 198px;
@@ -66,8 +69,9 @@
   position: relative;
   letter-spacing: 0.01em;
   display: inline-block;
-  min-width: 39px;
+  min-width: 36px;
   z-index: 1;
+  color: #ffffff;
 }
 .menuContactLinkParent {
   display: flex;
@@ -78,6 +82,7 @@
   position: relative;
   white-space: nowrap;
   z-index: 1;
+  margin-bottom: 0px;
 }
 .instanceChild {
   height: 100%;
@@ -89,9 +94,16 @@
   bottom: 0;
   left: 0;
   border-radius: var(--br-xs);
-  background: linear-gradient(114.72deg, #f70, rgba(255, 119, 0, 0));
+  background: linear-gradient(114.72deg, #f70, rgba(255, 255, 255, 0));
   border: 0.5px solid var(--color-darkorange-200);
   box-sizing: border-box;
+}
+
+.experienceAVibrant{
+  letter-spacing: -0.03em;
+  line-height: 126.67%;
+  z-index: 1;
+  color: rgb(172, 172, 172);
 }
 .contactUs {
   position: relative;
@@ -99,6 +111,7 @@
   display: inline-block;
   min-width: 45px;
   z-index: 1;
+  color: #ffffff;
 }
 .rectangleParent {
   padding: var(--padding-9xs) var(--padding-4xs);
@@ -120,14 +133,7 @@
 .menuLinks {
   padding: 0 var(--padding-10xs);
 }
-.experienceAVibrant {
-  align-self: stretch;
-  position: relative;
-  font-size: var(--font-size-xs);
-  letter-spacing: -0.03em;
-  line-height: 126.67%;
-  z-index: 1;
-}
+
 .menuNavigation {
   flex: 1;
   flex-direction: column;
@@ -170,7 +176,7 @@
 }
 .lineHorizontal3 {
   height: 20px;
-  width: 20px;
+  width: 30px;
   flex-shrink: 0;
   z-index: 1;
 }
@@ -186,21 +192,76 @@
   text-align: left;
   font-size: var(--font-size-29xl);
   font-family: var(--font-bricolage-grotesque-48pt);
+  width: 100%;
+  height: auto;
 }
 
+@media (max-width: 425px) {
+  .mainFrame {
+    height: 235px; /* Set a specific height for mobile */
+  }
+
+  .biryani {
+    margin-bottom: 0px;
+  }
+
+  .experienceAVibrant{
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+  .mainFrame {
+    height: 250px; /* Increase height for tablets */
+  }
+
+  .experienceAVibrant {
+    font-size: 16px;
+  }
+
+  .multani {
+    margin-bottom: 10px; /* Increase margin for larger screens */
+  }
+
+  .biryani {
+    margin-bottom: 15px; /* Increase margin for larger screens */
+  }
+
+  .experienceAVibrant {
+    margin-bottom: 15px; /* Increase margin for larger screens */
+  }
+}
+
+
 @media (min-width: 768px) {
+  .mainFrame {
+    height: 300px; /* Increase height for tablets */
+  }
+
   .header {
     padding: var(--padding-20xs) 0; /* Increase top padding for larger screens */
-    min-height: 80px; /* Increase minimum height for larger screens */
+    min-height: 90px; /* Increase minimum height for larger screens */
   }
 
   .navigation {
     padding: 0 0 0 var(--padding-15xs); /* Adjust left padding for larger screens */
     font-size: var(--font-size-xs); /* Adjust font size for larger screens */
   }
+
+  .experienceAVibrant {
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 1024px) {
+  .mainFrame {
+    height: 300px; /* Increase height for tablets */
+  }
+
+  .experienceAVibrant {
+    font-size: 20px;
+  }
+
   .header {
     padding: var(--padding-30xs) 0; /* Further increase top padding for larger screens */
     min-height: 100px; /* Further increase minimum height for larger screens */
@@ -209,5 +270,9 @@
   .navigation {
     min-height: 60px; /* Further increase minimum height for larger screens */
     font-size: var(--font-size-sm); /* Adjust font size for larger screens */
+  }
+
+  .experienceAVibrant {
+    font-size: larger;
   }
 }

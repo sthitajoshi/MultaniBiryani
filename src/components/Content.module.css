@@ -1,5 +1,5 @@
 .ourMenu {
-  height: 34px;
+  height: 32px;
   width: 134px;
   position: relative;
   letter-spacing: 0.01em;
@@ -358,6 +358,18 @@
     gap: 32px;
     padding-right: 0; /* Increase gap for larger screens */
   }
+
+  .menuTitle {
+    align-self: stretch;
+    display: flex;
+    font-size: 28px;
+    flex-direction: row;
+    align-items: flex-start; 
+    justify-content: center;
+    padding: var(--padding-2xs);
+    white-space: nowrap; /* Prevents text from wrapping */
+  }
+
   .content {
     height: auto; /* Adjust height as necessary */
     padding: 0 var(--padding-base) var(--padding-lg) var(--padding-sm);

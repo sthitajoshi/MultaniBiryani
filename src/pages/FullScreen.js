@@ -22,14 +22,7 @@ const FullScreen = () => {
           />
         </div>
       </div>
-      <div className={styles.hereAreSomeContainer}>
-        <p
-          className={styles.hereAreSome}
-        >{`Here are some of the extravagant pictures `}</p>
-        <p className={styles.hereAreSome}>
-          of our restaurant which you must admire.
-        </p>
-      </div>
+      
       <div className={styles.galleryContentParent}>
         <div className={styles.galleryContent}>
           <GalleryHeader />
@@ -67,17 +60,19 @@ const FullScreen = () => {
                 <div className={styles.testimonialHeaderItems}>
                   <div className={styles.hospitality}>Hospitality</div>
                 </div>
-                <div className={styles.dedicatedTeamElevatingContainer}>
-                  <p
-                    className={styles.hereAreSome}
-                  >{`DEDICATED TEAM, ELEVATING YOUR CAFE EXPERIENCE WITH EXCEPTIONAL SERVICE, WARMTH, AND A PASSION `}</p>
-                  <p className={styles.hereAreSome}>FOR HOSPITALITY</p>
+                <div className={styles.testimonialDescription}>
+                  
+                    <div className={styles.hereAreSome}>
+                  {`DEDICATED TEAM, ELEVATING YOUR CAFE EXPERIENCE WITH EXCEPTIONAL SERVICE, WARMTH, AND A PASSION for hopitality `}
+                  </div>
                 </div>
+                <div className={styles.testimonialImage}>
                 <img
                   className={styles.foodCakeUndefinedGlyph}
                   alt=""
                   src="/food-cake--undefined--glyph-undefined.svg"
                 />
+                </div>
                 <div className={styles.testimonialHeaderItems}>
                   <div className={styles.delights}>Delights</div>
                 </div>
@@ -210,12 +205,12 @@ const FullScreen = () => {
             </div>
           </div>
         </div>
-        <div className={styles.footer1}>
-          <div className={styles.photo}>photo</div>
+
+        {/* <div className={styles.footer1}>
           <div className={styles.androidSmall5Wrapper}>
             <div className={styles.androidSmall5} />
           </div>
-        </div>
+          </div> */}
       </div>
     </div>
   );
