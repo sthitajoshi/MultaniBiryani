@@ -3,6 +3,10 @@ import GalleryHeader from "../components/GalleryHeader";
 import MainFrame from "../components/MainFrame";
 import styles from "./FullScreen.module.css";
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+</style>
+
 const FullScreen = () => {
   return (
     <div className={styles.fullScreen}>

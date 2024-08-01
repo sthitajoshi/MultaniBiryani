@@ -1,4 +1,9 @@
 
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 
 .offerSection1 {
@@ -321,7 +326,7 @@
 }
 .bcd77feef1331310a33c161e0cc002Icon {
   width: 100%;
-  height: 100%;
+  height: 260px;
   position: absolute;
   margin: 0 !important;
   top: 0;
@@ -330,27 +335,27 @@
   left: 0;
   max-width: 100%;
   overflow: hidden;
-  max-height: 100%;
   object-fit: cover;
 }
+
+
 .our {
   flex: 1;
   position: relative;
   letter-spacing: 0.01em;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
   z-index: 2;
+  font-family: "Great Vibes";
+  font-size: 70px;
+  margin-top: -20px;
 }
 .ourWrapper {
-  width: 121px;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-end;
-  padding: 0 38px 0 39px;
-  box-sizing: border-box;
+  justify-content: center; /* Center the "Our" text */
+  padding: 0; /* Remove padding to avoid misalignment */
 }
 .team1 {
-  width: 121px;
+  width: auto;
   position: relative;
   font-size: var(--font-size-29xl);
   letter-spacing: 0.01em;
@@ -360,24 +365,48 @@
     #ff8126;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  display: inline-block;
+  display: flex;
   min-width: 121px;
   z-index: 1;
   margin-top: -51px;
+  text-align: center;
+  padding: 0 10px;
 }
 .team,
 .teamWrapper {
   display: flex;
-  justify-content: flex-start;
-  box-sizing: border-box;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 20px; /* Add padding to prevent cutting off */
+  box-sizing: border-box; /* Ensure padding is included in width */
   max-width: 100%;
+  overflow-x: auto;/* Allow horizontal scrolling if necessary */
+  height: auto;
 }
+
+/* @media (min-width: 767px) {
+  .teamWrapper {
+    height:450px;
+  }
+
+  .bcd77feef1331310a33c161e0cc002Icon{
+    height:450px;
+  }
+
+} */
+
+
+@media (min-width=425px){
+
+}
+
 .team {
   flex: 1;
   flex-direction: column;
   align-items: center;
   padding: var(--padding-10xs) var(--padding-2xl) 188px var(--padding-xl);
   position: relative;
+  box-sizing: border-box;
 }
 .teamWrapper {
   align-self: stretch;
@@ -387,7 +416,6 @@
   text-align: center;
   font-size: 58px;
   color: var(--color-white);
-  font-family: var(--font-cylburn);
 }
 .footerAddressSeparator {
   position: relative;
