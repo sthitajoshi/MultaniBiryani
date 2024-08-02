@@ -128,10 +128,12 @@ const FullScreen = () => {
                   <div className={styles.footerAddressItems}>
                     <div className={styles.footerAddressSeparator}>4.5+</div>
                   </div>
-                  <div className={styles.footerAddressItems1}>
+                  <div className={styles.footerAddressItems}>
                     <div className={styles.div}>100+</div>
                   </div>
-                  <div className={styles.whyPeoplesChoose}>2000+</div>
+                  <div className={styles.footerAddressItems}>
+                    <div className={styles.whyPeoplesChoose}>2000+</div>
+                  </div>
                 </div>
                 <div className={styles.footerContact}>
                   <div className={styles.footerRating}>
@@ -165,13 +167,6 @@ const FullScreen = () => {
               </div>
             </div>
             <div className={styles.footerBranding}>
-              <div className={styles.footerLogo}>
-                <img
-                  className={styles.multaniBiryaniMainLogo1}
-                  alt=""
-                  src="/multani-biryani-main-logo-11@2x.png"
-                />
-              </div>
               <div className={styles.footerForm}>
                 <div className={styles.footerFormBackgroundParent}>
                   <div className={styles.writeReviewButtonBackground} />
@@ -186,6 +181,15 @@ const FullScreen = () => {
                     </div>
                   </div>
                 </div>
+
+                <div className={styles.footerLogo}>
+                <img
+                  className={styles.multaniBiryaniMainLogo1}
+                  alt=""
+                  src="/multani-biryani-main-logo-11@2x.png"
+                />
+              </div>
+              
                 <div className={styles.footerSocial}>
                   <div className={styles.footerSocialIcons}>
                     <img
