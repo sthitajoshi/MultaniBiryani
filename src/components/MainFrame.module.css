@@ -139,6 +139,9 @@
   flex-direction: column;
   gap: var(--gap-smi);
 }
+
+
+
 .header,
 .logoContainer,
 .menuNavigation,
@@ -210,13 +213,13 @@
   }
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
+@media (min-width: 321px) and (max-width: 420px) {
   .mainFrame {
     height: 250px; /* Increase height for tablets */
   }
 
   .experienceAVibrant {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .multani {
@@ -232,10 +235,47 @@
   }
 }
 
+@media (min-width: 420px) and (max-width: 767px) {
+  .mainFrame {
+    height: 250px; /* Increase height for tablets */
+  }
+
+  .experienceAVibrant {
+    font-size: 14px;
+  }
+
+  .multani {
+    margin-bottom: 10px; /* Increase margin for larger screens */
+  }
+
+  .menuNavigation {
+    gap: 10px;
+  }
+
+  .biryani {
+    margin-bottom: 0px; /* Increase margin for larger screens */
+  }
+
+  .experienceAVibrant {
+    margin-bottom: 15px; /* Increase margin for larger screens */
+  }
+}
 
 @media (min-width: 768px) {
   .mainFrame {
     height: 300px; /* Increase height for tablets */
+  }
+
+  .multani {
+    font-size: 60px;
+  }
+
+  .biryani {
+    font-size: 40px;
+  }
+
+  .menuNavigation {
+    gap: 30px;
   }
 
   .header {
@@ -245,11 +285,11 @@
 
   .navigation {
     padding: 0 0 0 var(--padding-15xs); /* Adjust left padding for larger screens */
-    font-size: var(--font-size-xs); /* Adjust font size for larger screens */
+    font-size: 10px; /* Adjust font size for larger screens */
   }
 
   .experienceAVibrant {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
