@@ -1,0 +1,26 @@
+.component3Child,
+.component3Inner,
+.component3Item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.component3Inner,
+.component3Item {
+  left: 720px;
+  flex-shrink: 0;
+}
+.component3Inner {
+  left: 360px;
+}
+.component3 {
+  width: 360px;
+  height: 225px;
+  max-width: 100%;
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}

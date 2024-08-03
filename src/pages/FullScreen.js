@@ -29,10 +29,39 @@ const FullScreen = () => {
       
       <div className={styles.galleryContentParent}>
         <div className={styles.galleryContent}>
+          
           <GalleryHeader />
+          
+          <section className={styles.component3Parent}>
+        <div className={styles.component3}>
+          <img
+            className={styles.component3Child}
+            loading="lazy"
+            alt=""
+            src="/frame-4@2x.png"
+          />
+          <img
+            className={styles.component3Item}
+            loading="lazy"
+            alt=""
+            src="/frame-5@2x.png"
+          />
+          <img
+            className={styles.component3Inner}
+            loading="lazy"
+            alt=""
+            src="/frame-6@2x.png"
+          />
+        </div>
+        <div className={styles.specialitiesWrapper}>
+          <h1 className={styles.specialities}>Specialities</h1>
+        </div>
+      </section>
+
           <div className={styles.testimonialContentParent}>
             <div className={styles.testimonialContent}>
               <div className={styles.ppls}>
+                
                 <div className={styles.testimonialQuestion}>
                   <div
                     className={styles.whyPeoplesChoose}
