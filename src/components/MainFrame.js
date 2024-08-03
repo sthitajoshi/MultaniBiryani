@@ -7,7 +7,7 @@ const MainFrame = ({ className = "" }) => {
       <img
         className={styles.bb7947c94b51760e467704378fe81Icon}
         alt=""
-        src="/6087bb7947c94b51760e467704378fe8-1@2x.png"
+        src="/6087bb7947c94b51760e467704378fe8-1.svg"
       />
       <div className={styles.header}>
         <div className={styles.logoContainer}>

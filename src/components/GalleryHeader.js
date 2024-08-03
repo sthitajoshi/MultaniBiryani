@@ -10,6 +10,7 @@ const GalleryHeader = ({ className = "" }) => {
         src="/c8a7c3a22a8f1e23c11bfe498146f2d6-1@2x.png"
       />
       <div className={styles.galleryTitleContainer}>
+        <div className={styles.photo}>Photo</div>
         <div className={styles.galleryTitle}>
           <div className={styles.gallery}>GALLERY</div>
           <div className={styles.galleryNavigation}>

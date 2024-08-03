@@ -4,10 +4,28 @@
   position: relative;
   max-width: 100%;
   overflow: hidden;
+  height: 60vh; /* Maintain aspect ratio by setting height to auto */
   max-height: 100%;
   object-fit: cover;
   min-height: 168px;
+  max-height: 100%;
 }
+
+@media (max-width: 600px) {
+  .c8a7c3a22a8f1e23c11bfe498146f2Icon {
+    height: 31vh;
+    min-height: 120px;
+  }
+}
+
+
+.photo {
+  font-family:var(--font-satisfy);
+  font-size: var(--font-size-9xl); 
+  color: var(--color-gray-200); 
+  margin-bottom: ; 
+}
+
 .gallery {
   align-self: stretch;
   position: relative;
