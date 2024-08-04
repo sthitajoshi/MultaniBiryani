@@ -10,10 +10,10 @@
   object-fit: cover;
 }
 .multaniBiryaniMainLogo1 {
-  width: 62px;
+  width: auto;
   height: 30px;
   position: absolute;
-  margin: 0 !important;
+  margin-bottom: 10px;
   top: 0;
   left: 0;
   object-fit: contain;
@@ -99,7 +99,7 @@
   box-sizing: border-box;
 }
 
-.experienceAVibrant{
+.experienceAVibrant {
   letter-spacing: -0.03em;
   line-height: 126.67%;
   z-index: 1;
@@ -140,8 +140,6 @@
   gap: var(--gap-smi);
 }
 
-
-
 .header,
 .logoContainer,
 .menuNavigation,
@@ -149,7 +147,6 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-
 }
 .navigation {
   align-self: stretch;
@@ -208,7 +205,7 @@
     margin-bottom: 0px;
   }
 
-  .experienceAVibrant{
+  .experienceAVibrant {
     font-size: 10px;
   }
 }
@@ -230,6 +227,11 @@
     margin-bottom: 15px; /* Increase margin for larger screens */
   }
 
+  .menuNavigation {
+    margin-top: -5px;
+    gap: 10px;
+  }
+
   .experienceAVibrant {
     margin-bottom: 15px; /* Increase margin for larger screens */
   }
@@ -237,7 +239,11 @@
 
 @media (min-width: 420px) and (max-width: 767px) {
   .mainFrame {
-    height: 250px; /* Increase height for tablets */
+    height: 260px; /* Increase height for tablets */
+  }
+
+  .multaniBiryaniMainLogo1{
+    margin-bottom: -10px;
   }
 
   .experienceAVibrant {
@@ -249,11 +255,8 @@
   }
 
   .menuNavigation {
-    gap: 10px;
-  }
-
-  .biryani {
-    margin-bottom: 0px; /* Increase margin for larger screens */
+    margin-top: -5px;
+    gap: 14px;
   }
 
   .experienceAVibrant {
@@ -261,18 +264,20 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px){
   .mainFrame {
-    height: 300px; /* Increase height for tablets */
+    height: 320px; /* Increase height for tablets */
   }
 
   .multani {
-    font-size: 60px;
+    font-size: 72px;
+    margin-bottom: 20px;
   }
 
   .biryani {
-    font-size: 40px;
+    font-size: 54px;
   }
+
 
   .menuNavigation {
     gap: 30px;
@@ -284,8 +289,8 @@
   }
 
   .navigation {
-    padding: 0 0 0 var(--padding-15xs); /* Adjust left padding for larger screens */
-    font-size: 10px; /* Adjust font size for larger screens */
+    padding: 0 0 0 0; /* Adjust left padding for larger screens */
+    font-size: 12px; /* Adjust font size for larger screens */
   }
 
   .experienceAVibrant {
@@ -293,13 +298,32 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1023px) {
   .mainFrame {
-    height: 300px; /* Increase height for tablets */
+    height: 340px; /* Increase height for tablets */
+  }
+
+  .multaniBiryaniMainLogo1 {
+    height: 50px;
+  }
+
+  
+  .multani {
+    font-size: 84px;
+    margin-bottom: 20px;
+  }
+
+  .biryani {
+    font-size: 60px;
+  }
+
+  
+  .menuNavigation {
+    gap: 30px;
   }
 
   .experienceAVibrant {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .header {
@@ -312,7 +336,77 @@
     font-size: var(--font-size-sm); /* Adjust font size for larger screens */
   }
 
+}
+
+
+@media (min-width: 1440px) {
+  .mainFrame {
+    height: 400px; /* Increase height for tablets */
+  }
+  
+  .multani {
+    font-size: 120px;
+    margin-bottom: 30px;
+  }
+
+  .biryani {
+    font-size: 72px;
+  }
+  
+  .menuNavigation {
+    gap: 30px;
+  }
+
   .experienceAVibrant {
-    font-size: larger;
+    font-size: 28px;
+  }
+
+  .header {
+    padding: var(--padding-30xs) 0; /* Further increase top padding for larger screens */
+    min-height: 100px; /* Further increase minimum height for larger screens */
+  }
+
+  .navigation {
+    min-height: 60px; /* Further increase minimum height for larger screens */
+    font-size: 24px; /* Adjust font size for larger screens */
+  }
+}
+
+
+@media (min-width: 2560px) {
+  .multaniBiryaniMainLogo1{
+    width: auto;
+    height: 100px;
+  }
+
+  .mainFrame {
+    height: 800px; /* Increase height for tablets */
+  }
+  
+  .multani {
+    font-size: 200px;
+    margin-bottom: 30px;
+  }
+
+  .biryani {
+    font-size: 72px;
+  }
+  
+  .menuNavigation {
+    gap: 30px;
+  }
+
+  .experienceAVibrant {
+    font-size: 28px;
+  }
+
+  .header {
+    padding: var(--padding-30xs) 0; /* Further increase top padding for larger screens */
+    min-height: 100px; /* Further increase minimum height for larger screens */
+  }
+
+  .navigation {
+    min-height: 60px; /* Further increase minimum height for larger screens */
+    font-size: 24px; /* Adjust font size for larger screens */
   }
 }

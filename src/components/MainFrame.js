@@ -42,11 +42,7 @@ const MainFrame = ({ className = "" }) => {
           </div>
         </div>
       </div>
-      <img
-        className={styles.lineHorizontal3}
-        alt=""
-        src="/line-horizontal-3.svg"
-      />
+      
     </div>
   );
 };

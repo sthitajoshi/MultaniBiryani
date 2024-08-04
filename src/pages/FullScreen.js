@@ -24,6 +24,13 @@ const FullScreen = () => {
             alt=""
             src="/cabfcc101fa6f6d99b3c07e9997f7c47-11@2x.png"
           />
+          <div className={styles.offerInner}>
+            <div className={styles.grabOurParent}>
+              <h1 className={styles.grabOur}>Grab Our</h1>
+                    <h2 className={styles.offer1}>Offer</h2>
+                    <h2 className={styles.onBiryani}>on Biryani</h2>
+            </div>
+          </div>
         </div>
       </div>
       
