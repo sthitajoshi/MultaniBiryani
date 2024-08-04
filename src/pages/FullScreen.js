@@ -4,8 +4,9 @@ import MainFrame from "../components/MainFrame";
 import styles from "./FullScreen.module.css";
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-</style>
+  @import
+  url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+</style>;
 
 const FullScreen = () => {
   return (
@@ -27,48 +28,48 @@ const FullScreen = () => {
           <div className={styles.offerInner}>
             <div className={styles.grabOurParent}>
               <h1 className={styles.grabOur}>Grab Our</h1>
-                    <h2 className={styles.offer1}>Offer</h2>
-                    <h2 className={styles.onBiryani}>on Biryani</h2>
+              <h2 className={styles.offer1}>Offer</h2>
+              <h2 className={styles.onBiryani}>on Biryani</h2>
             </div>
           </div>
         </div>
       </div>
-      
+
       <div className={styles.galleryContentParent}>
         <div className={styles.galleryContent}>
-          
           <GalleryHeader />
+
           
+
           <section className={styles.component3Parent}>
-        <div className={styles.component3}>
-          <img
-            className={styles.component3Child}
-            loading="lazy"
-            alt=""
-            src="/frame-4@2x.png"
-          />
-          <img
-            className={styles.component3Item}
-            loading="lazy"
-            alt=""
-            src="/frame-5@2x.png"
-          />
-          <img
-            className={styles.component3Inner}
-            loading="lazy"
-            alt=""
-            src="/frame-6@2x.png"
-          />
-        </div>
-        <div className={styles.specialitiesWrapper}>
-          <h1 className={styles.specialities}>Specialities</h1>
-        </div>
-      </section>
+            <div className={styles.component3}>
+              <img
+                className={styles.component3Child}
+                loading="lazy"
+                alt=""
+                src="/frame-4@2x.png"
+              />
+              <img
+                className={styles.component3Item}
+                loading="lazy"
+                alt=""
+                src="/frame-5@2x.png"
+              />
+              <img
+                className={styles.component3Inner}
+                loading="lazy"
+                alt=""
+                src="/frame-6@2x.png"
+              />
+            </div>
+            <div className={styles.specialitiesWrapper}>
+              <h1 className={styles.specialities}>Specialities</h1>
+            </div>
+          </section>
 
           <div className={styles.testimonialContentParent}>
             <div className={styles.testimonialContent}>
               <div className={styles.ppls}>
-                
                 <div className={styles.testimonialQuestion}>
                   <div
                     className={styles.whyPeoplesChoose}
@@ -101,17 +102,16 @@ const FullScreen = () => {
                   <div className={styles.hospitality}>Hospitality</div>
                 </div>
                 <div className={styles.testimonialDescription}>
-                  
-                    <div className={styles.hereAreSome}>
-                  {`DEDICATED TEAM, ELEVATING YOUR CAFE EXPERIENCE WITH EXCEPTIONAL SERVICE, WARMTH, AND A PASSION for hopitality `}
+                  <div className={styles.hereAreSome}>
+                    {`DEDICATED TEAM, ELEVATING YOUR CAFE EXPERIENCE WITH EXCEPTIONAL SERVICE, WARMTH, AND A PASSION for hopitality `}
                   </div>
                 </div>
                 <div className={styles.testimonialImage}>
-                <img
-                  className={styles.foodCakeUndefinedGlyph}
-                  alt=""
-                  src="/food-cake--undefined--glyph-undefined.svg"
-                />
+                  <img
+                    className={styles.foodCakeUndefinedGlyph}
+                    alt=""
+                    src="/food-cake--undefined--glyph-undefined.svg"
+                  />
                 </div>
                 <div className={styles.testimonialHeaderItems}>
                   <div className={styles.delights}>Delights</div>
@@ -219,13 +219,13 @@ const FullScreen = () => {
                 </div>
 
                 <div className={styles.footerLogo}>
-                <img
-                  className={styles.multaniBiryaniMainLogo1}
-                  alt=""
-                  src="/multani-biryani-main-logo-11@2x.png"
-                />
-              </div>
-              
+                  <img
+                    className={styles.multaniBiryaniMainLogo1}
+                    alt=""
+                    src="/multani-biryani-main-logo-11@2x.png"
+                  />
+                </div>
+
                 <div className={styles.footerSocial}>
                   <div className={styles.footerSocialIcons}>
                     <img

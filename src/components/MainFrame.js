@@ -42,7 +42,6 @@ const MainFrame = ({ className = "" }) => {
           </div>
         </div>
       </div>
-      
     </div>
   );
 };
