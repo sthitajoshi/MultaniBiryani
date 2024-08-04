@@ -27,8 +27,6 @@ const GalleryHeader = ({ className = "" }) => {
         src="/d12724d4874d218fa3a85fda448d1b7d-1@2x.png"
       />
     </div>
-    
-    
   );
 };
 

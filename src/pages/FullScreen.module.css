@@ -410,7 +410,7 @@
 }
 .bcd77feef1331310a33c161e0cc002Icon {
   width: 100%;
-  height: 260px;
+  height: 400px;
   position: absolute;
   margin: 0 !important;
   top: 0;
@@ -421,7 +421,6 @@
   overflow: hidden;
   object-fit: cover;
 }
-
 
 .our {
   flex: 1;
@@ -438,6 +437,8 @@
   justify-content: center; /* Center the "Our" text */
   padding: 0; /* Remove padding to avoid misalignment */
 }
+
+
 .team1 {
   width: auto;
   position: relative;
@@ -463,9 +464,10 @@
   align-items: flex-start;
   padding: 0 20px; /* Add padding to prevent cutting off */
   box-sizing: border-box; /* Ensure padding is included in width */
+  height: 400px;
   max-width: 100%;
   overflow-x: auto;/* Allow horizontal scrolling if necessary */
-  height: auto;
+
 }
 
 /* @media (min-width: 767px) {
@@ -496,7 +498,7 @@
   align-self: stretch;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0 0 var(--padding-5xs);
+  padding: 0 0 0.2px;
   text-align: center;
   font-size: 58px;
   color: var(--color-white);
@@ -846,6 +848,10 @@
   font-family: var(--font-raleway);
 }
 
+.component3Child {
+  width: 300px;
+}
+
 
 .component3Child,
 .component3Inner,
@@ -867,7 +873,7 @@
 }
 .component3 {
   align-self: stretch;
-  height: 225px;
+  height: 230px;
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
@@ -896,9 +902,10 @@
 }
 .component3Parent {
   align-self: stretch;
-  height: 232px;
+  height: 200px;
   flex-direction: column;
-  padding: 0 0 var(--padding-6xs);
+  padding: 0;
+  margin-bottom: -200px;
   box-sizing: border-box;
   text-align: center;
   font-size: 32px;
