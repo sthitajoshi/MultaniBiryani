@@ -1,4 +1,3 @@
-
 .great-vibes-regular {
   font-family: "Great Vibes", cursive;
   font-weight: 400;
@@ -14,6 +13,7 @@
   display: none;
   max-width: 100%;
 }
+
 .cabfcc101fa6f6d99b3c07e9997f7cIcon {
   height: 150px;
   position: relative;
@@ -22,6 +22,7 @@
   align-self: center;
   margin-left: 15px;
 }
+
 .offer,
 .offerWrapper {
   display: flex;
@@ -31,6 +32,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .offer {
   flex: 1;
   padding: var(--padding-sm) var(--padding-4xl) 3.3px;
@@ -50,11 +52,13 @@
   font-family: inherit;
   z-index: 1;
 }
+
 .grabOur {
   align-self: stretch;
   font-weight: 500;
   font-size: 42px;
 }
+
 .offer1 {
   font-weight: 500;
   font-size: 28px;
@@ -63,6 +67,7 @@
   margin-bottom: -3px;
   margin-top: 0px;
 }
+
 .grabOurParent {
   align-self: stretch;
   flex-direction: column;
@@ -85,6 +90,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .offerInner {
   flex: 1;
   display: flex;
@@ -98,12 +104,15 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .offer {
   flex: 1;
   display: flex;
   flex-direction: row;
-  align-items: center; /* Center align items vertically */
-  justify-content: center; /* Center align items horizontally */
+  align-items: center;
+  /* Center align items vertically */
+  justify-content: center;
+  /* Center align items horizontally */
   padding: var(--padding-sm) var(--padding-mini) 3.3px var(--padding-4xl);
   gap: var(--gap-mid);
   background-image: url(/public/offer-section-1@2x.png);
@@ -111,6 +120,7 @@
   background-repeat: no-repeat;
   background-position: top;
 }
+
 .offerWrapper {
   align-self: stretch;
   display: flex;
@@ -130,41 +140,37 @@
 
 @media (min-width: 767px) {
   .offer {
-    height: 250px; /* Increase height for desktop */
+    height: 250px;
+    /* Increase height for desktop */
   }
 
-  .relaxInStyle {
-    font-size: 16px;
-  }
-
-  .hereAreSome {
-    font-size: 16px;
-  }
-
-  .delightspart {
-    font-size: 16px;
-  }
-
-  .sensationalFlavorsAnd {
-    font-size: 26px;
+  .bcd77feef1331310a33c161e0cc002Icon {
+    height: 300px;
   }
 
   .ppls {
-    flex-direction: row; /* Change to row for larger screens */
-    justify-content: space-between; /* Space between items */
+    flex-direction: row;
+    /* Change to row for larger screens */
+    justify-content: space-between;
+    /* Space between items */
     padding-bottom: 30px;
   }
 
   .ambiencepart,
   .hospitalitypart,
   .delightspart {
-    flex: 1; /* Allow each part to take equal space */
+    flex: 1;
+    /* Allow each part to take equal space */
     display: flex;
-    flex-direction: column; /* Keep the internal structure as column */
-    align-items: center; /* Center align items within each part */
+    flex-direction: column;
+    /* Keep the internal structure as column */
+    align-items: center;
+    /* Center align items within each part */
     justify-content: flex-start;
-    gap: var(--gap-sm); /* Maintain gap within each part */
-    max-width: 100%; /* Ensure they don't exceed the container */
+    gap: var(--gap-sm);
+    /* Maintain gap within each part */
+    max-width: 100%;
+    /* Ensure they don't exceed the container */
   }
 
 
@@ -178,7 +184,7 @@
     margin-bottom: -5px;
   }
 
-  .offer1{
+  .offer1 {
     font-size: 50px;
   }
 
@@ -191,18 +197,22 @@
 
 
   .whyPeoplesChoose {
-   padding: 10px;
+    padding: 10px;
     font-size: 30px;
   }
 
-  
+  .teamWrapper {
+    height: 300px;
+  }
+
 
 }
 
 /* Responsive adjustments for desktop */
 @media (min-width: 1024px) {
   .offer {
-    height: 350px; /* Increase height for desktop */
+    height: 350px;
+    /* Increase height for desktop */
   }
 
   .cabfcc101fa6f6d99b3c07e9997f7cIcon {
@@ -215,7 +225,7 @@
     margin-bottom: -5px;
   }
 
-  .offer1{
+  .offer1 {
     font-size: 80px;
   }
 
@@ -231,12 +241,14 @@
   align-self: stretch;
   padding: 0 0 17.7px;
 }
+
 .hereAreSome {
   flex: 1;
   position: relative;
   letter-spacing: 0.05em;
   text-transform: lowercase;
 }
+
 .hereAreSomeContainer,
 .whyPeoplesChoose {
   align-self: center;
@@ -244,6 +256,7 @@
   letter-spacing: 0.05em;
   font-weight: 500;
 }
+
 .testimonialQuestion {
   align-self: stretch;
   display: flex;
@@ -253,6 +266,7 @@
   padding: 0 var(--padding-9xl);
   font-size: var(--font-size-xl);
 }
+
 .cameraSparklesUndefined {
   height: 42px;
   width: 42px;
@@ -260,6 +274,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
+
 .testimonialImage {
   align-self: stretch;
   display: flex;
@@ -268,6 +283,7 @@
   justify-content: center;
   padding: 0 var(--padding-xl);
 }
+
 .ambience {
   position: relative;
   letter-spacing: 0.05em;
@@ -275,6 +291,7 @@
   display: inline-block;
   min-width: 94px;
 }
+
 .testimonialHeaderItems {
   align-self: stretch;
   display: flex;
@@ -283,12 +300,14 @@
   justify-content: center;
   padding: 0 var(--padding-2xl) 0 var(--padding-xl);
 }
+
 .relaxInStyle {
   flex: 1;
   position: relative;
   letter-spacing: 0.05em;
   text-transform: lowercase;
 }
+
 .testimonialDescription {
   align-self: stretch;
   display: flex;
@@ -296,9 +315,10 @@
   align-items: center;
   justify-content: flex-start;
   padding: 0 var(--padding-3xs);
-  font-size: var(--font-size-xs);
+  font-size: 12px;
   color: var(--color-gray-300);
 }
+
 .peopleUndefinedGlyphUn {
   height: 50px;
   width: 50px;
@@ -307,6 +327,7 @@
   flex-shrink: 0;
   margin-bottom: -5px;
 }
+
 .hospitality {
   position: relative;
   letter-spacing: 0.05em;
@@ -323,28 +344,46 @@
   max-height: 300px;
   padding: 8px;
 }
-.delights,
+
+
 .sensationalFlavorsAnd {
+
+  flex: 1;
   position: relative;
   letter-spacing: 0.05em;
+  text-transform: lowercase;
+  font-size: 32px;
 }
+
+.delights,
+.sensationalFlavorsAnd {
+
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+}
+
 .delights {
   font-weight: 600;
   display: inline-block;
   min-width: 79px;
   padding-bottom: 10px;
+  text-transform: initial;
 }
+
 .sensationalFlavorsAnd {
   align-self: stretch;
   font-size: var(--font-size-xs);
   text-transform: lowercase;
   color: var(--color-gray-300);
 }
+
 .ppls {
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   justify-content: flex-start;
   gap: var(--gap-sm);
   max-width: 100%;
@@ -360,7 +399,7 @@
   max-width: 100%;
 }
 
-.hospitalitypart{
+.hospitalitypart {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -387,6 +426,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 .testimonialContent {
 
   justify-content: flex-end;
@@ -395,6 +435,7 @@
   max-width: 100%;
   text-align: center;
 }
+
 .reviewHeading {
   align-self: stretch;
   display: flex;
@@ -404,6 +445,7 @@
   padding: 0 var(--padding-9xl);
   font-size: var(--font-size-xl);
 }
+
 .androidSmall8 {
   width: 100px;
   height: 70px;
@@ -413,8 +455,9 @@
   overflow: hidden;
   flex-shrink: 0;
   margin: 0;
-  
+
 }
+
 .reviewStars,
 .reviewTitle {
   align-self: stretch;
@@ -423,28 +466,36 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .reviewStars {
   display: flex;
-  align-items: center; /* Center align the stars */
-  justify-content: flex-start; /* Align stars to the left */
-  overflow-x: auto; /* Allow horizontal scrolling */
-  white-space: nowrap; /* Prevent wrapping of child elements */
+  align-items: center;
+  /* Center align the stars */
+  justify-content: flex-start;
+  /* Align stars to the left */
+  overflow-x: auto;
+  /* Allow horizontal scrolling */
+  white-space: nowrap;
+  /* Prevent wrapping of child elements */
   padding: 0;
-  gap: var(--gap-xs); /* Optional: Adjust padding as needed */
+  gap: var(--gap-xs);
+  /* Optional: Adjust padding as needed */
 }
 
 
 @media (max-width: 425px) {
   .reviewStars {
-    padding: 0 10px; /* Add padding to prevent cutting off */
+    padding: 0 10px;
+    /* Add padding to prevent cutting off */
   }
 }
 
 @media (min-width: 480px) {
   .reviewStars {
-    align-items: center; /* Center align the stars */
-  justify-content: center; 
-}
+    align-items: center;
+    /* Center align the stars */
+    justify-content: center;
+  }
 }
 
 
@@ -452,6 +503,7 @@
   flex-direction: column;
   gap: var(--gap-xl);
 }
+
 .writeReviewButtonBackground {
   height: 100%;
   width: 100%;
@@ -465,7 +517,9 @@
   background: linear-gradient(102.66deg, #020202, transparent);
   border: 0.5px solid var(--color-white);
   box-sizing: border-box;
+  align-items: center;
 }
+
 .writeAReview {
   position: relative;
   letter-spacing: 0.01em;
@@ -473,16 +527,17 @@
   min-width: 58px;
   z-index: 1;
 }
+
 .writeReviewButtonBackgroundParent {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-9xs) var(--padding-base) var(--padding-8xs)
-    var(--padding-mid);
+  padding: var(--padding-9xs) var(--padding-base) var(--padding-8xs) var(--padding-mid);
   position: relative;
   white-space: nowrap;
 }
+
 .reviewContent,
 .reviewContentWrapper,
 .writeReview {
@@ -490,6 +545,7 @@
   display: flex;
   align-items: flex-start;
 }
+
 .writeReview {
   flex-direction: row;
   justify-content: center;
@@ -497,16 +553,19 @@
   font-size: var(--font-size-6xs);
   color: var(--color-white);
 }
+
 .reviewContent,
 .reviewContentWrapper {
   max-width: 100%;
 }
+
 .reviewContent {
   flex: 1;
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-base);
 }
+
 .reviewContentWrapper {
   align-self: stretch;
   display: flex;
@@ -517,8 +576,8 @@
   box-sizing: border-box;
   font-size: var(--font-size-xl);
 }
+
 .bcd77feef1331310a33c161e0cc002Icon {
-  width: 100%;
   height: 400px;
   position: absolute;
   margin: 0 !important;
@@ -526,7 +585,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  max-width: 100%;
+  width: 100%;
   overflow: hidden;
   object-fit: cover;
 }
@@ -541,10 +600,13 @@
   font-size: 70px;
   margin-top: -20px;
 }
+
 .ourWrapper {
   display: flex;
-  justify-content: center; /* Center the "Our" text */
-  padding: 0; /* Remove padding to avoid misalignment */
+  justify-content: center;
+  /* Center the "Our" text */
+  padding: 0;
+  /* Remove padding to avoid misalignment */
 }
 
 
@@ -566,23 +628,25 @@
   text-align: center;
   padding: 0 10px;
 }
+
 .team,
 .teamWrapper {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0 20px; /* Add padding to prevent cutting off */
-  box-sizing: border-box; /* Ensure padding is included in width */
+  padding: 0 20px;
+  /* Add padding to prevent cutting off */
+  box-sizing: border-box;
+  /* Ensure padding is included in width */
   height: 400px;
   max-width: 100%;
-  overflow-x: auto;/* Allow horizontal scrolling if necessary */
+  overflow-x: auto;
+  /* Allow horizontal scrolling if necessary */
 
 }
 
 
-@media (min-width=425px){
-
-}
+@media (min-width=425px) {}
 
 .team {
   flex: 1;
@@ -592,6 +656,7 @@
   position: relative;
   box-sizing: border-box;
 }
+
 .teamWrapper {
   align-self: stretch;
   flex-direction: row;
@@ -601,6 +666,7 @@
   font-size: 58px;
   color: var(--color-white);
 }
+
 .footerAddressSeparator {
   position: relative;
   letter-spacing: 0.05em;
@@ -608,6 +674,7 @@
   display: inline-block;
   min-width: 92px;
 }
+
 .footerAddressItems {
   align-self: stretch;
   display: flex;
@@ -616,6 +683,7 @@
   justify-content: flex-end;
   padding: 0 var(--padding-4xs);
 }
+
 .div {
   position: relative;
   letter-spacing: 0.05em;
@@ -623,40 +691,49 @@
   display: inline-block;
   min-width: 111px;
 }
+
 .footerAddress,
 .footerAddressItems1 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .footerAddressItems1 {
   align-self: stretch;
   flex-direction: row;
   padding: 0 var(--padding-5xs) 0 var(--padding-9xl);
 }
+
 .footerAddress {
   flex: 1;
   flex-direction: column;
   gap: var(--gap-sm);
 }
+
 .o {
   color: var(--color-red);
 }
+
 .o1 {
   color: #e6e600;
 }
+
 .l {
   color: #15b500;
 }
+
 .google,
 .ratings {
   letter-spacing: 0.05em;
 }
+
 .google {
   flex: 1;
   position: relative;
   white-space: nowrap;
 }
+
 .ratings {
   position: absolute;
   margin: 0 !important;
@@ -669,6 +746,7 @@
   min-width: 46px;
   z-index: 1;
 }
+
 .footerRatingContent {
   width: 122px;
   display: flex;
@@ -679,20 +757,24 @@
   box-sizing: border-box;
   position: relative;
 }
+
 .reviews {
   display: inline-block;
   min-width: 117px;
 }
+
 .customers,
 .reviews {
   position: relative;
   letter-spacing: 0.05em;
 }
+
 .footerCustomerCount {
   align-self: stretch;
   gap: 36px;
   color: var(--color-black);
 }
+
 .footerContact,
 .footerCustomerCount,
 .footerRating {
@@ -701,27 +783,32 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .footerRating {
   align-self: stretch;
   gap: 47px;
 }
+
 .footerContact {
   flex: 1;
   padding: var(--padding-7xs) 0 0;
   font-size: var(--font-size-9xl);
   color: var(--color-mediumblue);
 }
+
 .footer,
 .footerContent {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
+
 .footerContent {
   flex: 1;
   justify-content: flex-start;
   gap: var(--gap-mid);
 }
+
 .footer {
   align-self: stretch;
   justify-content: flex-end;
@@ -729,6 +816,7 @@
   font-size: var(--font-size-29xl);
   color: var(--color-darkorange-100);
 }
+
 .footerAppStoreImageChild {
   height: 184px;
   width: 328px;
@@ -737,8 +825,12 @@
   display: none;
   max-width: 100%;
 }
+
+
+
+
 .screenshot202407190609291 {
-  height: 159px;
+  height: 200px;
   flex: 1;
   position: relative;
   max-width: 100%;
@@ -746,6 +838,14 @@
   object-fit: cover;
   z-index: 1;
 }
+
+@media (min-width: 767px) {
+  .screenshot202407190609291 {
+    height: 300px;
+  }
+
+}
+
 .footerAppStore,
 .footerAppStoreImage {
   display: flex;
@@ -754,17 +854,20 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .footerAppStoreImage {
   flex: 1;
   background-color: var(--color-dimgray);
   justify-content: flex-start;
   padding: var(--padding-smi) var(--padding-mid) var(--padding-xs);
 }
+
 .footerAppStore {
   align-self: stretch;
   justify-content: flex-end;
   padding: 0 var(--padding-base) var(--padding-7xs);
 }
+
 .multaniBiryaniMainLogo1 {
   align-self: stretch;
   height: 44px;
@@ -774,6 +877,7 @@
   flex-shrink: 0;
   object-fit: cover;
 }
+
 .footerLogo {
   height: 20px;
   width: 89px;
@@ -782,6 +886,7 @@
   align-items: flex-start;
   justify-content: center;
 }
+
 .userCicrleIcon {
   height: 17px;
   width: 17px;
@@ -789,6 +894,7 @@
   z-index: 1;
   margin-right: 20px;
 }
+
 .writeYourQueries {
   position: relative;
   letter-spacing: 0.01em;
@@ -799,14 +905,16 @@
   text-align: center;
   margin-right: 20px;
 }
+
 .footerFormBackgroundParent,
 .footerFormLabel {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
   padding: var(--padding-10xs) 0 0;
 }
+
 .footerFormBackgroundParent {
   align-self: stretch;
   flex-direction: row;
@@ -814,6 +922,7 @@
   position: relative;
   gap: var(--gap-mid);
 }
+
 .socialIcons,
 .socialIcons1,
 .socialIcons2 {
@@ -821,20 +930,26 @@
   overflow: hidden;
   flex-shrink: 0;
 }
+
 .socialIcons {
   height: 18px;
   width: 18px;
   min-height: 18px;
 }
+
 .socialIcons1,
 .socialIcons2 {
   height: 17px;
   width: 17px;
 }
+
 .socialIcons2 {
   height: 16px;
   width: 16px;
 }
+
+
+
 .footerSocialIcons {
   display: flex;
   flex-direction: row;
@@ -842,23 +957,27 @@
   justify-content: center;
   gap: 30px;
 }
+
 .footerSocial {
   flex-direction: row;
   align-items: center;
   padding: 0 43px 0 42px;
 }
+
 .footerBranding,
 .footerForm,
 .footerSocial {
   display: flex;
   justify-content: flex-start;
 }
+
 .footerForm {
-  width: 164px;
+  width: 170px;
   flex-direction: column;
   align-items: center;
   gap: 25px;
 }
+
 .footerBranding {
   align-self: stretch;
   background-color: #ff7a00;
@@ -870,6 +989,49 @@
   font-size: 8px;
   color: rgba(255, 255, 255, 0.5);
 }
+
+@media (min-width: 767px) {
+  .footerForm {
+    height: 180px;
+    gap: 50px;
+  }
+
+  .footerLogo {
+    width: 150px;
+  }
+
+  .multaniBiryaniMainLogo1 {
+    height: 70px;
+  }
+
+
+  .footerBranding {
+    font-size: 10px;
+  }
+
+  .footerSocialIcons{
+    gap: 45px;
+  }
+
+  .socialIcons {
+    height: 30px;
+    width: 30px;
+    min-height: 30px;
+  }
+
+  .socialIcons1,
+  .socialIcons2 {
+    height: 30px;
+    width: 30px;
+  }
+
+  .socialIcons2 {
+    height: 30px;
+    width: 30px;
+  }
+
+}
+
 .galleryContent,
 .testimonialContentParent {
   display: flex;
@@ -877,11 +1039,13 @@
   justify-content: flex-start;
   max-width: 100%;
 }
+
 .testimonialContentParent {
   align-self: stretch;
   align-items: flex-end;
   gap: 30px;
 }
+
 .galleryContent {
   flex: 1;
   align-items: flex-start;
@@ -895,6 +1059,7 @@
   background-color: var(--color-silver);
   overflow: hidden;
 }
+
 .androidSmall5Wrapper {
   align-self: stretch;
   flex: 1;
@@ -906,6 +1071,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .footer1 {
   height: 396px;
   flex: 1;
@@ -917,6 +1083,7 @@
   font-size: var(--font-size-19xl);
   font-family: var(--font-cylburn);
 }
+
 .footer1,
 .fullScreen,
 .galleryContentParent {
@@ -924,6 +1091,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .galleryContentParent {
   align-self: stretch;
   flex-direction: row;
@@ -931,6 +1099,7 @@
   text-align: left;
   font-size: var(--font-size-lg);
 }
+
 .fullScreen {
   width: 100%;
   position: relative;
@@ -947,7 +1116,8 @@
 }
 
 .component3Child {
-  width: 300px;
+  height: 300px;
+  width: 400px;
 }
 
 
@@ -961,14 +1131,17 @@
   height: 100%;
   object-fit: cover;
 }
+
 .component3Inner,
 .component3Item {
   left: 720px;
   flex-shrink: 0;
 }
+
 .component3Inner {
   left: 360px;
 }
+
 .component3 {
   align-self: stretch;
   height: 230px;
@@ -976,6 +1149,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
+
 .specialities {
   margin: 0;
   width: 162px;
@@ -987,17 +1161,20 @@
   display: inline-block;
   z-index: 1;
 }
+
 .component3Parent,
 .specialitiesWrapper {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .specialitiesWrapper {
   flex-direction: row;
   padding: 0 var(--padding-base);
   margin-top: -126px;
 }
+
 .component3Parent {
   align-self: stretch;
   height: 200px;

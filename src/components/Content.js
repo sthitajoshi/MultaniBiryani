@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import styles from "./Content.module.css";
-import FrameComponent from "./FrameComponent";
 
 const Content = ({ className = "" }) => {
   return (
@@ -56,14 +55,20 @@ const Content = ({ className = "" }) => {
               alt=""
               src="/9c7228d74b38305bd6c483b4417d749c-1@2x.png"
             />
-            <div className={styles.pannerWrapper}>
-              <div className={styles.chicken}>Panner</div>
+            <div className={styles.chickenWrapper}>
+              <div className={styles.panner}>Panner</div>
             </div>
           </div>
-          <FrameComponent
-            db17641d31c172d2b2739daf9="/db17641d31c172d2b2739daf968caf86-1@2x.png"
-            mushroom="Mushroom"
-          />
+          <div className={styles.db17641d31c172d2b2739daf9Parent}>
+            <img
+              className={styles.db17641d31c172d2b2739daf9Icon}
+              alt=""
+              src="/db17641d31c172d2b2739daf968caf86-1@2x.png"
+            />
+            <div className={styles.mushroomWrapper}>
+              <div className={styles.mushroom}>Mushroom</div>
+            </div>
+          </div>
           <div className={styles.c0566b8ce26a85119cb9dbaff7221bParent}>
             <img
               className={styles.c0566b8ce26a85119cb9dbaff7221bIcon}
@@ -94,10 +99,18 @@ const Content = ({ className = "" }) => {
               <div className={styles.chicken}>Dessert</div>
             </div>
           </div>
-          <FrameComponent
-            db17641d31c172d2b2739daf9="/21033241cec90baa0f32f80373d70a61-1@2x.png"
-            mushroom="Soft Drinks"
-          />
+
+
+          <div className={styles.SoftDrinkParent}>
+            <img
+              className={styles.SoftDrinkIcon}
+              alt=""
+              src="/21033241cec90baa0f32f80373d70a61-1@2x.png"
+            />
+            <div className={styles.chickenWrapper}>
+              <div className={styles.chicken}>Soft Drinks</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

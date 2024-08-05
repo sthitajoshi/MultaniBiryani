@@ -87,7 +87,7 @@ const FullScreen = () => {
                   <div className={styles.testimonialDescription}>
                     <div className={styles.relaxInStyle}>
                       RELAX IN STYLE AT OUR CAFÉ. CHOOSE A COZY SPOT, SIP YOUR
-                      FAVORITE DRINK, AND SAVOR THE WELCOMING AMBIANCE WE OFFEr
+                      FAVORITE DRINK, AND SAVOR THE WELCOMING AMBIANCE WE OFFER
                     </div>
                   </div>
                 </div>
@@ -119,9 +119,11 @@ const FullScreen = () => {
                   <div className={styles.testimonialHeaderItems}>
                     <div className={styles.delights}>Delights</div>
                   </div>
-                  <div className={styles.sensationalFlavorsAnd}>
-                    SENSATIONAL FLAVORS AND CULINARY MASTERY UNITE IN ICONIC
-                    DELIGHTS, CREATING AN UNFORGETTABLE DINING for all
+                  <div className={styles.testimonialDescription}>
+                    <div className={styles.sensationalFlavorsAnd}>
+                      SENSATIONAL FLAVORS AND CULINARY MASTERY UNITE IN ICONIC
+                      DELIGHTS, CREATING AN UNFORGETTABLE DINING for all
+                    </div>
                   </div>
                 </div>
               </div>
@@ -254,11 +256,6 @@ const FullScreen = () => {
           </div>
         </div>
 
-        {/* <div className={styles.footer1}>
-          <div className={styles.androidSmall5Wrapper}>
-            <div className={styles.androidSmall5} />
-          </div>
-          </div> */}
       </div>
     </div>
   );
