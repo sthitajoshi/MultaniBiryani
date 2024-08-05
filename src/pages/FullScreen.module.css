@@ -124,25 +124,104 @@
   color: var(--color-white);
   font-family: var(--font-google-sans);
 }
+
+
+
+
 @media (min-width: 767px) {
   .offer {
     height: 250px; /* Increase height for desktop */
   }
 
+  .relaxInStyle {
+    font-size: 16px;
+  }
+
+  .hereAreSome {
+    font-size: 16px;
+  }
+
+  .delightspart {
+    font-size: 16px;
+  }
+
+  .sensationalFlavorsAnd {
+    font-size: 26px;
+  }
+
+  .ppls {
+    flex-direction: row; /* Change to row for larger screens */
+    justify-content: space-between; /* Space between items */
+    padding-bottom: 30px;
+  }
+
+  .ambiencepart,
+  .hospitalitypart,
+  .delightspart {
+    flex: 1; /* Allow each part to take equal space */
+    display: flex;
+    flex-direction: column; /* Keep the internal structure as column */
+    align-items: center; /* Center align items within each part */
+    justify-content: flex-start;
+    gap: var(--gap-sm); /* Maintain gap within each part */
+    max-width: 100%; /* Ensure they don't exceed the container */
+  }
+
+
   .cabfcc101fa6f6d99b3c07e9997f7cIcon {
     height: 180px;
+    margin-left: 40px;
   }
+
+  .grabOur {
+    font-size: 60px;
+    margin-bottom: -5px;
+  }
+
+  .offer1{
+    font-size: 50px;
+  }
+
+  .onBiryani {
+    font-size: 30px;
+    margin-bottom: 0px;
+    letter-spacing: 0.1rem;
+  }
+
+
+
+  .whyPeoplesChoose {
+   padding: 10px;
+    font-size: 30px;
+  }
+
+  
+
 }
 
 /* Responsive adjustments for desktop */
 @media (min-width: 1024px) {
   .offer {
-    height: 380px; /* Increase height for desktop */
+    height: 350px; /* Increase height for desktop */
   }
 
   .cabfcc101fa6f6d99b3c07e9997f7cIcon {
-    height: 230px;
+    height: 320px;
 
+  }
+
+  .grabOur {
+    font-size: 100px;
+    margin-bottom: -5px;
+  }
+
+  .offer1{
+    font-size: 80px;
+  }
+
+  .onBiryani {
+    font-size: 40px;
+    margin-bottom: 0px;
   }
 
 
@@ -157,11 +236,6 @@
   position: relative;
   letter-spacing: 0.05em;
   text-transform: lowercase;
-}
-.hereAreSomeContainer {
-  width: 132px;
-  height: 0;
-  display: none;
 }
 .hereAreSomeContainer,
 .whyPeoplesChoose {
@@ -219,7 +293,7 @@
   align-self: stretch;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   padding: 0 var(--padding-3xs);
   font-size: var(--font-size-xs);
@@ -231,6 +305,7 @@
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
+  margin-bottom: -5px;
 }
 .hospitality {
   position: relative;
@@ -246,6 +321,7 @@
   max-width: 100%;
   overflow: hidden;
   max-height: 300px;
+  padding: 8px;
 }
 .delights,
 .sensationalFlavorsAnd {
@@ -256,6 +332,7 @@
   font-weight: 600;
   display: inline-block;
   min-width: 79px;
+  padding-bottom: 10px;
 }
 .sensationalFlavorsAnd {
   align-self: stretch;
@@ -267,19 +344,51 @@
   flex: 1;
   display: flex;
   flex-direction: column;
+  align-items:center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+
+.ambiencepart {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-sm);
   max-width: 100%;
 }
+
+.hospitalitypart{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+
+.delightspart {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  max-width: 100%;
+}
+
 .reviewHeading,
 .testimonialContent {
   align-self: stretch;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
 }
 .testimonialContent {
+
   justify-content: flex-end;
   padding: 0 var(--padding-base) 0 var(--padding-xl);
   box-sizing: border-box;
@@ -469,17 +578,6 @@
   overflow-x: auto;/* Allow horizontal scrolling if necessary */
 
 }
-
-/* @media (min-width: 767px) {
-  .teamWrapper {
-    height:450px;
-  }
-
-  .bcd77feef1331310a33c161e0cc002Icon{
-    height:450px;
-  }
-
-} */
 
 
 @media (min-width=425px){

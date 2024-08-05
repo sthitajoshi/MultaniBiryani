@@ -39,8 +39,6 @@ const FullScreen = () => {
         <div className={styles.galleryContent}>
           <GalleryHeader />
 
-          
-
           <section className={styles.component3Parent}>
             <div className={styles.component3}>
               <img
@@ -75,50 +73,56 @@ const FullScreen = () => {
                     className={styles.whyPeoplesChoose}
                   >{`Why Peoples Choose Us ? `}</div>
                 </div>
-                <div className={styles.testimonialImage}>
-                  <img
-                    className={styles.cameraSparklesUndefined}
-                    alt=""
-                    src="/camera-sparkles--undefined--glyph-undefined.svg"
-                  />
-                </div>
-                <div className={styles.testimonialHeaderItems}>
-                  <div className={styles.ambience}>Ambience</div>
-                </div>
-                <div className={styles.testimonialDescription}>
-                  <div className={styles.relaxInStyle}>
-                    RELAX IN STYLE AT OUR CAFÉ. CHOOSE A COZY SPOT, SIP YOUR
-                    FAVORITE DRINK, AND SAVOR THE WELCOMING AMBIANCE WE OFFEr
+                <div className={styles.ambiencepart}>
+                  <div className={styles.testimonialImage}>
+                    <img
+                      className={styles.cameraSparklesUndefined}
+                      alt=""
+                      src="/camera-sparkles--undefined--glyph-undefined.svg"
+                    />
+                  </div>
+                  <div className={styles.testimonialHeaderItems}>
+                    <div className={styles.ambience}>Ambience</div>
+                  </div>
+                  <div className={styles.testimonialDescription}>
+                    <div className={styles.relaxInStyle}>
+                      RELAX IN STYLE AT OUR CAFÉ. CHOOSE A COZY SPOT, SIP YOUR
+                      FAVORITE DRINK, AND SAVOR THE WELCOMING AMBIANCE WE OFFEr
+                    </div>
                   </div>
                 </div>
-                <div className={styles.testimonialImage}>
-                  <img
-                    className={styles.peopleUndefinedGlyphUn}
-                    alt=""
-                    src="/people--undefined--glyph-undefined.svg"
-                  />
-                </div>
-                <div className={styles.testimonialHeaderItems}>
-                  <div className={styles.hospitality}>Hospitality</div>
-                </div>
-                <div className={styles.testimonialDescription}>
-                  <div className={styles.hereAreSome}>
-                    {`DEDICATED TEAM, ELEVATING YOUR CAFE EXPERIENCE WITH EXCEPTIONAL SERVICE, WARMTH, AND A PASSION for hopitality `}
+                <div className={styles.hospitalitypart}>
+                  <div className={styles.testimonialImage}>
+                    <img
+                      className={styles.peopleUndefinedGlyphUn}
+                      alt=""
+                      src="/people--undefined--glyph-undefined.svg"
+                    />
+                  </div>
+                  <div className={styles.testimonialHeaderItems}>
+                    <div className={styles.hospitality}>Hospitality</div>
+                  </div>
+                  <div className={styles.testimonialDescription}>
+                    <div className={styles.hereAreSome}>
+                      {`DEDICATED TEAM, ELEVATING YOUR CAFE EXPERIENCE WITH EXCEPTIONAL SERVICE, WARMTH, AND A PASSION for hopitality `}
+                    </div>
                   </div>
                 </div>
-                <div className={styles.testimonialImage}>
-                  <img
-                    className={styles.foodCakeUndefinedGlyph}
-                    alt=""
-                    src="/food-cake--undefined--glyph-undefined.svg"
-                  />
-                </div>
-                <div className={styles.testimonialHeaderItems}>
-                  <div className={styles.delights}>Delights</div>
-                </div>
-                <div className={styles.sensationalFlavorsAnd}>
-                  SENSATIONAL FLAVORS AND CULINARY MASTERY UNITE IN ICONIC
-                  DELIGHTS, CREATING AN UNFORGETTABLE DINING for all
+                <div className={styles.delightsparts}>
+                  <div className={styles.testimonialImage}>
+                    <img
+                      className={styles.foodCakeUndefinedGlyph}
+                      alt=""
+                      src="/food-cake--undefined--glyph-undefined.svg"
+                    />
+                  </div>
+                  <div className={styles.testimonialHeaderItems}>
+                    <div className={styles.delights}>Delights</div>
+                  </div>
+                  <div className={styles.sensationalFlavorsAnd}>
+                    SENSATIONAL FLAVORS AND CULINARY MASTERY UNITE IN ICONIC
+                    DELIGHTS, CREATING AN UNFORGETTABLE DINING for all
+                  </div>
                 </div>
               </div>
             </div>

@@ -1,6 +1,6 @@
-import FrameComponent from "./FrameComponent";
 import PropTypes from "prop-types";
 import styles from "./Content.module.css";
+import FrameComponent from "./FrameComponent";
 
 const Content = ({ className = "" }) => {
   return (
