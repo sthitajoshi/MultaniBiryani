@@ -198,7 +198,7 @@ const FullScreen = () => {
                 </div>
               </div>
             </div>
-            <div className={styles.footerAppStore}>
+            <a href="https://maps.app.goo.gl/8WuvQMRfrML67dEC8" className={styles.footerAppStore}>
               <div className={styles.footerAppStoreImage}>
                 <div className={styles.footerAppStoreImageChild} />
                 <img
@@ -207,7 +207,7 @@ const FullScreen = () => {
                   src="/screenshot-20240719-060929-1@2x.png"
                 />
               </div>
-            </div>
+            </a>
             <div className={styles.footerBranding}>
               <div className={styles.footerForm}>
                 <div className={styles.footerFormBackgroundParent}>
@@ -255,7 +255,6 @@ const FullScreen = () => {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );
