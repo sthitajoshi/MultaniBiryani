@@ -138,41 +138,18 @@
 
 
 
-@media (min-width: 767px) {
+@media (min-width: 767px) and (max-width: 1022px) {
   .offer {
     height: 250px;
     /* Increase height for desktop */
   }
-
-  .bcd77feef1331310a33c161e0cc002Icon {
-    height: 300px;
+  .whyPeoplesChoose{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    letter-spacing: 0.8rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   }
-
-  .ppls {
-    flex-direction: row;
-    /* Change to row for larger screens */
-    justify-content: space-between;
-    /* Space between items */
-    padding-bottom: 30px;
-  }
-
-  .ambiencepart,
-  .hospitalitypart,
-  .delightspart {
-    flex: 1;
-    /* Allow each part to take equal space */
-    display: flex;
-    flex-direction: column;
-    /* Keep the internal structure as column */
-    align-items: center;
-    /* Center align items within each part */
-    justify-content: flex-start;
-    gap: var(--gap-sm);
-    /* Maintain gap within each part */
-    max-width: 100%;
-    /* Ensure they don't exceed the container */
-  }
-
 
   .cabfcc101fa6f6d99b3c07e9997f7cIcon {
     height: 180px;
@@ -195,29 +172,69 @@
   }
 
 
-
-  .whyPeoplesChoose {
-    padding: 10px;
-    font-size: 30px;
+  .testimonialHeaderItems{
+    font-size: 22px;
   }
 
-  .teamWrapper {
-    height: 300px;
-  }
+  
 
 
 }
 
 /* Responsive adjustments for desktop */
-@media (min-width: 1024px) {
+@media (min-width: 1023px) {
+
+
+  
   .offer {
     height: 350px;
     /* Increase height for desktop */
   }
 
+  .whyPeoplesChoose{
+    padding-top: 40px;
+    font-size: 40px;
+    padding-bottom: 20px;
+    letter-spacing: 0.8rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  }
+
   .cabfcc101fa6f6d99b3c07e9997f7cIcon {
     height: 320px;
 
+  }
+
+  .testimonialHeaderItems{
+    font-size: 28px;
+  }
+
+  .ambiencepart{
+    margin: 20px;
+  }
+
+  .relaxInStyle{
+    font-size: 22px;
+  }
+
+  .hospitalitypart{
+    margin: 20px;
+  }
+
+  .hereAreSome{
+    font-size: 22px;
+  }
+
+  .delightspart{
+    padding: 20px;
+  }
+
+
+  .testimonialDescription{
+    font-size: 22px;
+  }
+
+  .sensationalFlavorsAnd{
+    font-size: 200px;
   }
 
   .grabOur {
@@ -234,8 +251,40 @@
     margin-bottom: 0px;
   }
 
+  
 
 }
+
+
+/* Responsive adjustments for bigger desktop */
+@media (min-width: 1440px) {
+  .offer {
+    height:  450px;
+    /* Increase height for desktop */
+  }
+
+  .cabfcc101fa6f6d99b3c07e9997f7cIcon {
+    height: 380px;
+
+  }
+
+  .grabOur {
+    font-size: 140px;
+    margin-bottom: -20px;
+  }
+
+  .offer1 {
+    font-size: 100px;
+  }
+
+  .onBiryani {
+    font-size: 60px;
+    margin-bottom: 0px;
+  }
+
+
+}
+
 
 .offerWrapper {
   align-self: stretch;
@@ -347,17 +396,14 @@
 
 
 .sensationalFlavorsAnd {
-
   flex: 1;
   position: relative;
   letter-spacing: 0.05em;
   text-transform: lowercase;
-  font-size: 32px;
 }
 
 .delights,
 .sensationalFlavorsAnd {
-
   flex: 1;
   position: relative;
   letter-spacing: 0.05em;
@@ -374,7 +420,7 @@
 
 .sensationalFlavorsAnd {
   align-self: stretch;
-  font-size: var(--font-size-xs);
+  font-size: 12px;
   text-transform: lowercase;
   color: var(--color-gray-300);
 }
@@ -413,9 +459,9 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
   max-width: 100%;
 }
 
@@ -633,17 +679,19 @@
 .teamWrapper {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   padding: 0 20px;
   /* Add padding to prevent cutting off */
   box-sizing: border-box;
   /* Ensure padding is included in width */
-  height: 400px;
-  max-width: 100%;
   overflow-x: auto;
+  height: 400px;
   /* Allow horizontal scrolling if necessary */
 
 }
+
+
+
 
 
 @media (min-width=425px) {}
@@ -839,12 +887,6 @@
   z-index: 1;
 }
 
-@media (min-width: 767px) {
-  .screenshot202407190609291 {
-    height: 300px;
-  }
-
-}
 
 .footerAppStore,
 .footerAppStoreImage {
@@ -991,6 +1033,50 @@
 }
 
 @media (min-width: 767px) {
+
+  
+
+  .reviewContentWrapper{
+  margin-top: 30px;
+  height: 250px;
+  gap: 0px;
+}
+
+.reviewStars{
+  display: flex;
+  flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.androidSmall8{
+  height: 100px;
+  width: 160px;
+}
+
+
+.writeAReview{
+  font-size: 12px;
+}
+
+  .teamWrapper{
+    height: 500px;
+  }
+
+  .team{
+    height: 500px;
+  }
+  .bcd77feef1331310a33c161e0cc002Icon{
+    height: 500px;
+  }
+
+
+  .screenshot202407190609291{
+    align-self: center;
+    height: 370px;
+  }
+
   .footerForm {
     height: 180px;
     gap: 50px;

@@ -160,3 +160,34 @@
   }
 
 }
+
+
+@media (min-width:1024px) {
+  .c8a7c3a22a8f1e23c11bfe498146f2Icon {
+    min-width: 20px;
+    min-height: 380px
+  }
+
+  .galleryTitleContainer{
+    padding: 60px;
+  }
+
+  .photo {
+    font-size: 42px;
+    margin-bottom: -12px;
+  }
+
+  .gallery {
+    font-size: 52px;
+  }
+
+  .galleryNavigation{
+    height:20px ;
+    width: auto;
+  }
+
+  .moreShots {
+    font-size: 14px;
+  }
+
+}

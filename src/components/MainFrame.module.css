@@ -300,28 +300,32 @@
   }
 }
 
-@media (min-width: 1023px) {
+@media (min-width: 1023px) and (max-width: 1439px) {
   .mainFrame {
-    height: 340px; /* Increase height for tablets */
+    height: 450px; /* Increase height for tablets */
   }
 
-  .multaniBiryaniMainLogo1 {
-    height: 50px;
+  .brandName{
+    padding-top: 40px;
   }
 
-  
+  .multaniBiryaniMainLogo1{
+    height: 40px;
+  }
+
   .multani {
-    font-size: 84px;
-    margin-bottom: 20px;
+    font-size: 100px;
+    margin-bottom: 40px;
   }
 
   .biryani {
-    font-size: 60px;
+    font-size: 74px;
   }
 
   
   .menuNavigation {
-    gap: 30px;
+    margin-top: 20px;
+    gap: 40px;
   }
 
   .experienceAVibrant {
@@ -334,33 +338,42 @@
   }
 
   .navigation {
-    min-height: 60px; /* Further increase minimum height for larger screens */
-    font-size: var(--font-size-sm); /* Adjust font size for larger screens */
+    min-height: 50px; /* Further increase minimum height for larger screens */
+    font-size: 18px; /* Adjust font size for larger screens */
   }
 
 }
 
 
-@media (min-width: 1440px) {
+@media (min-width: 1440px) and (max-width: 2560px) {
   .mainFrame {
-    height: 400px; /* Increase height for tablets */
+    height: 540px; /* Increase height for tablets */
   }
-  
+
+  .multaniBiryaniMainLogo1{
+    height: 60px;
+  }
+
+  .brandName{
+    padding-top: 30px;
+  }
+
   .multani {
-    font-size: 120px;
-    margin-bottom: 30px;
+    font-size: 150px;
+    margin-bottom: 50px;
   }
 
   .biryani {
-    font-size: 72px;
+    font-size: 98px;
   }
   
   .menuNavigation {
-    gap: 30px;
+    margin-top: 20px;
+    gap: 40px;
   }
 
   .experienceAVibrant {
-    font-size: 28px;
+    font-size: 34px;
   }
 
   .header {

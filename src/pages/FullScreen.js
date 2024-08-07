@@ -69,9 +69,9 @@ const FullScreen = () => {
             <div className={styles.testimonialContent}>
               <div className={styles.ppls}>
                 <div className={styles.testimonialQuestion}>
-                  <div
-                    className={styles.whyPeoplesChoose}
-                  >{`Why Peoples Choose Us ? `}</div>
+                  <div className={styles.whyPeoplesChoose}>
+                    Why Peoples Choose Us ?
+                  </div>
                 </div>
                 <div className={styles.ambiencepart}>
                   <div className={styles.testimonialImage}>
@@ -121,8 +121,8 @@ const FullScreen = () => {
                   </div>
                   <div className={styles.testimonialDescription}>
                     <div className={styles.sensationalFlavorsAnd}>
-                      SENSATIONAL FLAVORS AND CULINARY MASTERY UNITE IN ICONIC
-                      DELIGHTS, CREATING AN UNFORGETTABLE DINING for all
+                      {`SENSATIONAL FLAVORS AND CULINARY MASTERY UNITE IN ICONIC
+                      DELIGHTS, CREATING AN UNFORGETTABLE DINING for all `}
                     </div>
                   </div>
                 </div>
@@ -174,7 +174,7 @@ const FullScreen = () => {
                     <div className={styles.div}>100+</div>
                   </div>
                   <div className={styles.footerAddressItems}>
-                    <div className={styles.whyPeoplesChoose}>2000+</div>
+                    <div className={styles.div}>2000+</div>
                   </div>
                 </div>
                 <div className={styles.footerContact}>
@@ -198,7 +198,10 @@ const FullScreen = () => {
                 </div>
               </div>
             </div>
-            <a href="https://maps.app.goo.gl/8WuvQMRfrML67dEC8" className={styles.footerAppStore}>
+            <a
+              href="https://maps.app.goo.gl/8WuvQMRfrML67dEC8"
+              className={styles.footerAppStore}
+            >
               <div className={styles.footerAppStoreImage}>
                 <div className={styles.footerAppStoreImageChild} />
                 <img

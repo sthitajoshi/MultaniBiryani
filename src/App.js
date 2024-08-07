@@ -6,7 +6,6 @@ import {
   useNavigationType
 } from "react-router-dom";
 import FullScreen from "./pages/FullScreen";
-import OURMENU from "./pages/OURMENU";
 
 
 function App() {
@@ -56,7 +55,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<FullScreen />} />
-      <Route path="/OURMENU" element={OURMENU }/>
+      <Route path="/menu" element={"/OURMENU" }/>
     </Routes>
   );
 }
